@@ -6075,8 +6075,8 @@ void praat_uvafon_init () {
 	praat_addMenuCommand (L"Objects", L"New", L"Matrix", 0, 0, 0);
 		praat_addMenuCommand (L"Objects", L"New", L"Create Matrix...", 0, 1, DO_Matrix_create);
 		praat_addMenuCommand (L"Objects", L"New", L"Create simple Matrix...", 0, 1, DO_Matrix_createSimple);
-	praat_addMenuCommand (L"Objects", L"Open", L"-- read movie --", 0, praat_HIDDEN, 0);
-	praat_addMenuCommand (L"Objects", L"Open", L"Open movie file...", 0, praat_HIDDEN, DO_Movie_openFromSoundFile);
+	praat_addMenuCommand (L"Objects", L"Open", L"-- read movie --", 0, 0, 0);
+	praat_addMenuCommand (L"Objects", L"Open", L"Open movie file...", 0, 1, DO_Movie_openFromSoundFile);
 	praat_addMenuCommand (L"Objects", L"Open", L"-- read raw --", 0, 0, 0);
 	praat_addMenuCommand (L"Objects", L"Open", L"Read Matrix from raw text file...", 0, 0, DO_Matrix_readFromRawTextFile);
 	praat_addMenuCommand (L"Objects", L"Open", L"Read Matrix from LVS AP file...", 0, praat_HIDDEN, DO_Matrix_readAP);

@@ -6,3 +6,14 @@ As of the initial checkin (Oct 2), I (David) will keep this on my own
 github account. Get in touch if you'd like write access
 (I'm at dellison@email.arizona.edu). Feel free to add things; just be
 sure to document what you do and why. 
+
+__COMPILATION_INSTUCTIONS__
+1) Make sure libgtk2.0-dev and libasound2-dev are installed.
+2) From the source directory, type
+   cp makefiles/makefile.defs.linux ./makefile.defs
+3) make
+
+Obviously, these instructions are indended for Linux (you know how to use Linux, don't you?)
+
+See also: instructions on praat website here: http://www.fon.hum.uva.nl/praat/download_sources.html
+
